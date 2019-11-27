@@ -12,13 +12,13 @@ To see how to use it check https://github.com/theccalderon/shotChart
 ## Inspiration
 
 I created shotChart for mainly two reasons:
-1) Wanted to learn how to use the python library [scrapy](https://docs.scrapy.org/en/latest/index.html)
-2) I was curious about what could we do if we had shot chart datasets?????
+1. Wanted to learn how to use the python library [scrapy](https://docs.scrapy.org/en/latest/index.html)
+2. I was curious about what could we do if we had shot chart datasets?????
 
 ## Usage
-1) `git clone git@github.com:theccalderon/shotChart.git`
-2) `pip install -r requirements.txt`
-3) `scrapy crawl basketball-reference -o ./shotChart/data/shots-2000.csv -a season=2000`
+1. `git clone git@github.com:theccalderon/shotChart.git`
+2. `pip install -r requirements.txt`
+3. `scrapy crawl basketball-reference -o ./shotChart/data/shots-2000.csv -a season=2000`
 
 For more information on how to use, see [https://github.com/theccalderon/shotChart](https://github.com/theccalderon/shotChart).
 
