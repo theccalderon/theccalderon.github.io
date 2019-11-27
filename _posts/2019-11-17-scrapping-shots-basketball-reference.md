@@ -9,20 +9,28 @@ In this post I'll be introducing `shotChart`, a web spyder created using scrapy 
 
 To see how to use it check https://github.com/theccalderon/shotChart
 
-## Inspiration
+# Index:
+1. [Inspiration](#inspiration)
+1. [Usage](#usage)
+1. [Implementation](#implementation)
+1. [Datasets](#datasets)
+1. [Future Work](#futurework)
+
+## Inspiration<a name="inspiration"></a>
 
 I created shotChart for mainly two reasons:
 1. Wanted to learn how to use the python library [scrapy](https://docs.scrapy.org/en/latest/index.html)
 2. I was curious about what could we do if we had shot chart datasets?????
 
-## Usage
+## Usage<a name="usage"></a>
+
 1. `git clone git@github.com:theccalderon/shotChart.git`
 2. `pip install -r requirements.txt`
 3. `scrapy crawl basketball-reference -o ./shotChart/data/shots-2000.csv -a season=2000`
 
 For more information on how to use, see [https://github.com/theccalderon/shotChart](https://github.com/theccalderon/shotChart).
 
-## Implementation
+## Implementation<a name="implementation"></a>
 
 I won't go deep into how to use scrapy since they have great tutorials in their documentation. I'm going to try to outline and explain the main parts of the code.
 
@@ -86,7 +94,7 @@ for chart in response.css('div.shot-area'):
 
 We select the divs with class `shot-area` and iterate thorugh them. We then select the divs with class `tooltip` and we get the shot information.
 
-# Datasets
+## Datasets<a name="datasets"></a>
 
 This scraper has already been executed for each season starting in 2000 and the datasets are publicly available (I did a little bit of software engineering on the original datasets) at:
 * [2000-2001](https://nba-shot-charts.s3.amazonaws.com/shots-2000.tgz)
@@ -110,6 +118,6 @@ This scraper has already been executed for each season starting in 2000 and the 
 * [2018-2019](https://nba-shot-charts.s3.amazonaws.com/shots-2018.tgz)
 * [2019-2020](https://nba-shot-charts.s3.amazonaws.com/shots-2019.tgz)
 
-# Future work:
+## Future work<a name="futurework"></a>:
 
 Anybody can download [http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png) and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance.........
