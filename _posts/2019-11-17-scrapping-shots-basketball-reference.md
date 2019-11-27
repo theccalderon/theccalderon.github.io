@@ -110,13 +110,6 @@ This scraper has already been executed for each season starting in 2000 and the 
 * [2018-2019](https://nba-shot-charts.s3.amazonaws.com/shots-2018.tgz)
 * [2019-2020](https://nba-shot-charts.s3.amazonaws.com/shots-2019.tgz)
 
-### Preview:
-| game_id      | year | month | day | winner    | loser     | x     | y     | play                                                                                              | time_remaining | quarter | shot_by           | outcome | attempt   | distance | team      | winner_score | loser_score |
-|--------------|------|-------|-----|-----------|-----------|-------|-------|---------------------------------------------------------------------------------------------------|----------------|---------|-------------------|---------|-----------|----------|-----------|--------------|-------------|
-| 200011040VAN | 2000 | 11    | 4   | LA Lakers | Vancouver | 126px | 108px | 1st quarter, 11:44.0 remaining<br>Michael Dickerson missed 2-pointer from 15 ftVancouver tied 0-0 | 11:44.0        | 1       | Michael Dickerson | missed  | 2-pointer | 15ft     | Vancouver | 0            | 0           |
-| 200011040VAN | 2000 | 11    | 4   | LA Lakers | Vancouver | 126px | 403px | 1st quarter, 11:26.0 remaining<br>Kobe Bryant missed 2-pointer from 18 ftLA Lakers tied 0-0       | 11:26.0        | 1       | Kobe Bryant       | missed  | 2-pointer | 18ft     | LA Lakers | 0            | 0           |
-| 200011040VAN | 2000 | 11    | 4   | LA Lakers | Vancouver | 200px | 87px  | 1st quarter, 11:20.0 remainingMike Bibby missed 2-pointer from 21 ftVancouver tied 0-0            | 11:20.0        | 1       | Mike Bibby        | missed  | 2-pointer | 21ft     | Vancouver | 0            | 0           |
-
 # Future work:
 
 Anybody can download [http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png) and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance.........
