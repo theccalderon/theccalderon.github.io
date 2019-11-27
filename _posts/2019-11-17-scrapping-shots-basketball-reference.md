@@ -65,12 +65,12 @@ For each day (each URL), we proceed to then get the list of games, see below:
 for game in response.css('div.game_summary.expanded.nohover'):
   next_page = game.css('p.links a::attr(href)')[2].get()
 ```
-The most important part of the code above is how we get the `next_page`, which in this case means the actual shot chart. ![Image](._posts/assets/shot-chart.png)
+The most important part of the code above is how we get the `next_page`, which in this case means the actual shot chart. ![Image](/assets/shot-chart.png)
 
 As you can see in the image, we can navigate to the shot-chart by appending `/boxscores/shot-chart/200010310ATL.html` to `https://www.basketball-reference.com/`. So that's `game in list_of_games`.
 
 ### Getting the list of shots
-![Image](._posts/assets/shot.png)
+![Image](/assets/shot.png)
 
 As you can see, we have a shot chart for each team ( 2 shot charts) per game. We do have two divs formatted as `<div is="shots-XXX" class="shot-area">` where `XXX` stands for a team. Under each one of these 2 divs, we have a list of divs with each one of the shots.
 
