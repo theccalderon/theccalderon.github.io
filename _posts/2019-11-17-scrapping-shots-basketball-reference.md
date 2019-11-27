@@ -35,14 +35,15 @@ As you would think, the idea behind the code should be something like the follow
 for day from startDate to finishDate:
     list_of_games <- list of games in day
     for game in list_of_games:
-      return list_of_shot
+      return list_of_shots
 ```
-Now that's easy, why am I even reading this post????? Well, we do need to know how to use dynamic dates to go through each day, how to get the list of games for one day and how to get the actual shot. 
+Now that's easy, why am I even reading this post????? Well, we do need to know how to use dynamic dates to go through each day, how to get the list of games for one day and how to get the actual shots. 
 
 ### Iterating through each day:
 
-Since we have the start and end dates for the season we can use the following code to iterate through each day:
+Since we have the start and end dates for the season (`calendar.json`) we can use the following code to iterate through each day:
 ```
+from datetime import date, timedelta
 start_date = date(start_year, start_month, start_day)
 end_date = date(end_year, end_month, end_day)
 delta = timedelta(days=1)
@@ -56,7 +57,7 @@ while start_date <= end_date:
 
 ```
 
-The code above creates two dates objects for the start and end date. We then proceed to get the year, month and day for each day since the format of basketball-reference is `https://www.basketball-reference.com/boxscores/?month=10&day=31&year=2000`. We need to store each one of these urls to later get the list of shots from each game that day. Finally, we increment the start_date by our delta (in this case just 1 day).
+The code above creates two dates objects for the start and end date. We then proceed to get the year, month and day for each day since the format of basketball-reference is `https://www.basketball-reference.com/boxscores/?month=MM&day=DD&year=YYYY`. We need to store each one of these urls to later get the list of shots from each game that day. Finally, we increment the start_date by our delta (in this case just 1 day).
 
 ### Getting the list of games per day:
 
@@ -111,4 +112,4 @@ These scraper has already been run and the datasets are publicly available (I di
 
 # Future work:
 
-Anybody can download http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance.........
+Anybody can download [http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png) and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance.........
