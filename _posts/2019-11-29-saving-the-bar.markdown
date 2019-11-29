@@ -55,6 +55,7 @@ So we now know how to select the elements and we have the information to be subm
 const request = require('request');
 async function getNames(url)
 {
+  #returns a premise since it will be used within an asynchronous function.
   return new Promise((resolve, reject) => {
     request({ url, method: 'GET' }, (error, response, body) => {
       if (error) return reject(error)
