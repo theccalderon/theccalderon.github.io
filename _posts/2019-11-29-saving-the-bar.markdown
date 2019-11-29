@@ -16,7 +16,7 @@ To see how to use it check [https://github.com/theccalderon/saving-the-bar]
 
 ## Inspiration<a name="inspiration"></a>
 
-You guys know how difficult is to find YOUR bar right??? And if you happen to live in DC, you know   how expensive the drinks are... I've been looking for MY bar since I moved to DC with no luck, until I found [https://thecommodoredc.com/](The Commodore DC). It's super close to my place, it's a small space usually not packed, the staff is great (shoutout to my boy Nate, best rum in coke in town lowkey) and more importantly, their house beer is 3 dollars every hour every day!!!
+You guys know how difficult is to find YOUR bar right??? And if you happen to live in DC, you know   how expensive the drinks are... I've been looking for MY bar since I moved to DC with no luck, until I found [https://thecommodoredc.com/](The Commodore DC). It's super close to my place, it's a small space usually not packed, the staff is great (shoutout to my boy Nate, best rum and coke in town lowkey) and more importantly, their house beer is 3 dollars every hour every day!!!
 Anyway, I recently found out the bar is closing because they didn't come to terms with the landlord (rumour says the landlord wants to increase the rent like 3 times the original value). Hoping to save the bar, the regulars and the staff put together this [http://tinyurl.com/savethecommodore](petition). 
 Since I know not a lot of people will sign because the bar is mainly sustained by regulars who go a lot, but are pretty much the same people every day, I decided to take matters into my own hands.
 
