@@ -11,10 +11,10 @@ To see how to use it check https://github.com/theccalderon/shotChart
 
 # Index:
 1. [Inspiration](#inspiration)
-1. [Usage](#usage)
-1. [Implementation](#implementation)
-1. [Datasets](#datasets)
-1. [Future Work](#futurework)
+2. [Usage](#usage)
+3. [Implementation](#implementation)
+4. [Datasets](#datasets)
+5. [Future Work](#futurework)
 
 ## Inspiration<a name="inspiration"></a>
 
