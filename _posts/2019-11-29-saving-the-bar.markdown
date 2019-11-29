@@ -28,7 +28,7 @@ I decided to use [https://pptr.dev/]puppeteer which is a library that allows you
 2. `npm install`
 3. `node saving-the-bar.js`
 
-By running `node saving-the-bar.js`, 25 petitions will get submitted using different names and emails. How??? CHeck the sections below for the explanation.
+By running `node saving-the-bar.js`, 25 petitions will get submitted using different names and emails (the amount can be modified in the code). How??? CHeck the sections below for the explanation.
 
 ## Implementation<a name="implementation"></a>
 
