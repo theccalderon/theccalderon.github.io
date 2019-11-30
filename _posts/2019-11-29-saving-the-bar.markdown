@@ -20,7 +20,7 @@ You guys know how difficult is to find YOUR bar right??? And if you happen to li
 Anyway, I recently found out the bar is closing because they didn't come to terms with the landlord. Hoping to save the bar, the regulars and the staff put together this [petition](http://tinyurl.com/savethecommodore). 
 Since I don't know how many people will sign the petition and I'm not a fan of uncertainty, I decided to take matters into my own hands.
 
-I decided to use [https://pptr.dev/]puppeteer which is a library that allows you to automate web browser actions using NodeJS to submit several petitions myself ;).
+I decided to use [puppeteer](https://pptr.dev/) which is a library that allows you to automate web browser actions using NodeJS to submit several petitions myself ;).
 
 ## Usage<a name="usage"></a>
 
