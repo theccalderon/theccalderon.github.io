@@ -7,7 +7,7 @@ title:  "Using puppeteer to save the bar!!!"
 
 In this post, I'll demonstrate how to use puppeteer to fill and submit a Google Form to save The Commodore in DC!.
 
-To see how to use it check [https://github.com/theccalderon/saving-the-bar]
+To see how to use it check [https://github.com/theccalderon/saving-the-bar]()
 
 # Index:
 1. [Inspiration](#inspiration)
