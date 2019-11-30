@@ -16,9 +16,9 @@ To see how to use it check [https://github.com/theccalderon/saving-the-bar]()
 
 ## Inspiration<a name="inspiration"></a>
 
-You guys know how difficult is to find YOUR bar right??? And if you happen to live in DC, you know   how expensive the drinks are... I've been looking for MY bar since I moved to DC with no luck, until I found [https://thecommodoredc.com/](The Commodore DC). It's super close to my place, it's a small space usually not packed, the staff is great (shoutout to my boy Nate, best rum and coke in town low key) and more importantly, their house beer is 3 dollars every hour every day!!!
-Anyway, I recently found out the bar is closing because they didn't come to terms with the landlord (rumour is the landlord wants to increase the rent like 3 times the original value). Hoping to save the bar, the regulars and the staff put together this [http://tinyurl.com/savethecommodore](petition). 
-Since I know not a lot of people will sign the petition because the bar is mainly sustained by regulars who go a lot, but are pretty much the same people every day, I decided to take matters into my own hands.
+You guys know how difficult is to find YOUR bar right??? And if you happen to live in DC, you know   how expensive the drinks are... I've been looking for MY bar since I moved to DC with no luck, until I found [The Commodore DC](https://thecommodoredc.com/). It's super close to my place, it's a small space usually not packed, the staff is great (shoutout to my boy Nate, best rum and coke in town low key) and more importantly, their house beer is 3 dollars every hour every day!!!
+Anyway, I recently found out the bar is closing because they didn't come to terms with the landlord (rumour is the landlord wants to increase the rent like 3 times the original value). Hoping to save the bar, the regulars and the staff put together this [petition](http://tinyurl.com/savethecommodore). 
+Since I don't know how many people will sign the petition and I'm not a fan od uncertainty, I decided to take matters into my own hands.
 
 I decided to use [https://pptr.dev/]puppeteer which is a library that allows you to automate web browser actions using NodeJS to submit several petitions myself ;).
 
@@ -51,11 +51,11 @@ I decided to use XPath to select the input and submit elements. You can copy the
 
 So we now know how to select the elements and we have the information to be submitted hence, we only need the following code (check the github page for complete source code):
 
-```
+```javascript
 const request = require('request');
 async function getNames(url)
 {
-  #returns a premise since it will be used within an asynchronous function.
+  //returns a premise since we want to await for it
   return new Promise((resolve, reject) => {
     request({ url, method: 'GET' }, (error, response, body) => {
       if (error) return reject(error)
@@ -67,7 +67,7 @@ async function getNames(url)
 
 Here we are getting the list names using the `request` module.
 
-```
+```javascript
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
 //navigating to the form
