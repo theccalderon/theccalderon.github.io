@@ -18,9 +18,13 @@ To see how to use it check https://github.com/theccalderon/shotChart
 
 ## Inspiration<a name="inspiration"></a>
 
-I created shotChart for mainly two reasons:
-1. Wanted to learn how to use the python library [scrapy](https://docs.scrapy.org/en/latest/index.html)
-2. I was curious about what could we do if we had shot chart datasets?????
+One my favorite basketball charts is the shot chart. First of all, it looks really cool but, we are not Jerry Seinfeld so we don't only care about what's important to the superficial man (see The Switch, season 6 episode 11).
+Shot charts are plots of the location and result of each shot taken during a game. It can be used to improve a team's ability to defend a certain player or team by using shot data to make inferences about the player's tendencies and abilities. Every time I read or listen to a basketball player say: "... I need to get to my spots..." well, they usually mean the areas of the shot chart where they are most efficient/confident they can score. 
+
+![Image](/assets/shai-shot-chart.png)
+
+
+Since I love to use python along with Jupyter notebooks to analyze data, I created this web crawler to retrieve the shot chart data from basketball-reference.com and potentially develop a library that can be used to plot/analyze it.
 
 ## Usage<a name="usage"></a>
 
@@ -96,7 +100,7 @@ We select the divs with class `shot-area` and iterate thorugh them. We then sele
 
 ## Datasets<a name="datasets"></a>
 
-This scraper has already been executed for each season starting in 2000 and the datasets are publicly available (I did a little bit of software engineering on the original datasets) at:
+This scraper has already been executed for each season starting in 2000 and the datasets are publicly available (I did a little bit of feature engineering on the original datasets) at:
 * [2000-2001](https://nba-shot-charts.s3.amazonaws.com/shots-2000.tgz)
 * [2001-2002](https://nba-shot-charts.s3.amazonaws.com/shots-2001.tgz)
 * [2002-2003](https://nba-shot-charts.s3.amazonaws.com/shots-2002.tgz)
@@ -120,4 +124,4 @@ This scraper has already been executed for each season starting in 2000 and the 
 
 ## Future work<a name="futurework"></a>:
 
-Anybody can download [http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png) and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance.........
+I will try to use [http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png) and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance......... Hit me up if you'd like to contribute on that.
