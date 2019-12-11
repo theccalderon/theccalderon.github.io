@@ -7,7 +7,7 @@ title:  "shotChart part 1: Scraping shots from basketball-reference"
 
 In this post I'll be introducing `shotChart`, a web spyder created using scrapy (python library) to get the shots from basketball-reference.com. It will mainly be focused on how it was implemented.
 
-To see how to use it check https://github.com/theccalderon/shotChart
+To see how to use it check [https://github.com/theccalderon/shotChart](https://github.com/theccalderon/shotChart)
 
 # Index:
 1. [Motivation](#motivation)
