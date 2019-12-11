@@ -18,7 +18,7 @@ To see how to use it check [https://github.com/theccalderon/shotChart](https://g
 
 ## Motivation<a name="motivation"></a>
 
-One my favorite basketball charts is the shot chart. First of all, it looks really cool but, we are not Jerry Seinfeld so we don't only care about what's important to the superficial man [^fn].
+One my favorite basketball charts is the shot chart. First of all, it looks really cool but, we are not Jerry Seinfeld so we don't only care about what's important to the superficial man [^fn].\
 Shot charts are plots of the location and result of each shot taken during a game. It can be used to improve a team's ability to defend a certain player or team by using shot data to make inferences about the player's tendencies and abilities. Every time I read or listen to a basketball player say: "... I need to get to my spots..." well, they usually mean the areas of the court where they are most efficient/confident they can score. 
 
 ![Image](/assets/shai-shot-chart.png)
