@@ -3,28 +3,30 @@ layout: post
 title:  "Web spider to crawl the shot charts from basketball-reference.com"
 ---
 
-# Scraping shots from basketball-reference
+# shotChart part 1: Scraping shots from basketball-reference
 
 In this post I'll be introducing `shotChart`, a web spyder created using scrapy (python library) to get the shots from basketball-reference.com. It will mainly be focused on how it was implemented.
 
 To see how to use it check https://github.com/theccalderon/shotChart
 
 # Index:
-1. [Inspiration](#inspiration)
+1. [Motivation](#motivation)
 2. [Usage](#usage)
 3. [Implementation](#implementation)
 4. [Datasets](#datasets)
 5. [Future Work](#futurework)
 
-## Inspiration<a name="inspiration"></a>
+## Motivation<a name="motivation"></a>
 
-One my favorite basketball charts is the shot chart. First of all, it looks really cool but, we are not Jerry Seinfeld so we don't only care about what's important to the superficial man (see The Switch, season 6 episode 11).
-Shot charts are plots of the location and result of each shot taken during a game. It can be used to improve a team's ability to defend a certain player or team by using shot data to make inferences about the player's tendencies and abilities. Every time I read or listen to a basketball player say: "... I need to get to my spots..." well, they usually mean the areas of the shot chart where they are most efficient/confident they can score. 
+One my favorite basketball charts is the shot chart. First of all, it looks really cool but, we are not Jerry Seinfeld so we don't only care about what's important to the superficial man [^fn].
+Shot charts are plots of the location and result of each shot taken during a game. It can be used to improve a team's ability to defend a certain player or team by using shot data to make inferences about the player's tendencies and abilities. Every time I read or listen to a basketball player say: "... I need to get to my spots..." well, they usually mean the areas of the court where they are most efficient/confident they can score. 
 
 ![Image](/assets/shai-shot-chart.png)
 
 
-Since I love to use python along with Jupyter notebooks to analyze data, I created this web crawler to retrieve the shot chart data from basketball-reference.com and potentially develop a library that can be used to plot/analyze it.
+Since I love to use python along with Jupyter notebooks to analyze data, I created this web crawler to retrieve the shot chart data from basketball-reference.com and potentially develop a library that can be used to plot/analyze it. I also wanted to share the shot chart data in tabular form to see what can we do with it.
+
+For readers interested in how this web crawler was implemented, please see [Usage](#usage) and [Implementation](#implementation) sections. If you are only here for the data(smart decision btw), you can skip ahead to [Datasets](#datasets).
 
 ## Usage<a name="usage"></a>
 
@@ -124,4 +126,9 @@ This scraper has already been executed for each season starting in 2000 and the 
 
 ## Future work<a name="futurework"></a>:
 
-I will try to use [http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png) and use the columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance......... Hit me up if you'd like to contribute on that.
+I will try to use the image below and columns `x` and `y` in the datasets to plot shot distributions, shots per player, shots by distance......... Hit me up if you'd like to contribute on that.
+
+![Image](http://d2p3bygnnzw9w3.cloudfront.net/req/1/images/bbr/nbahalfcourt.png)
+
+
+[^fn]: Jerry Seinfeld,The Switch: "She has many other qualities admired by superficial man."
