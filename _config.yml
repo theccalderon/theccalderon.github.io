@@ -18,9 +18,10 @@ email: cesar.calderon.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I like coding and researching, I also like sports and sharing so I'll be sharing pretty much anything I can build that uses tech in a cool way. :)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://theccalderon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ccalderon911217
 github_username:  theccalderon
+name: "Not as nerdy"
 
 # Build settings
 markdown: kramdown
