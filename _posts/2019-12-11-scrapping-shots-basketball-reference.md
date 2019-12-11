@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Web spider to crawl the shot charts from basketball-reference.com"
+title:  "shotChart part 1: Scraping shots from basketball-reference"
 ---
 
-# shotChart part 1: Scraping shots from basketball-reference
+# Web spider to crawl the shot chart data from basketball-reference.com
 
 In this post I'll be introducing `shotChart`, a web spyder created using scrapy (python library) to get the shots from basketball-reference.com. It will mainly be focused on how it was implemented.
 
