@@ -141,7 +141,7 @@ I thought about using a cron job here as well to demonstrate how to run schedule
 
 ## Audio Samples <a name="example"></a>
 
-I used this app to separate **Se me olvido que te olvide** by **Diego El Cigala** and **Bebo Valdes** from **Lagrimas Negras**, arguably the best Spanish sang album of the last 20 years. Check both files below, Bebo was a musical genius. 
+I used this app to separate **Se me olvido que te olvide** by **Diego El Cigala** and **Bebo Valdes** from **Lagrimas Negras**, arguably the best album in Spanish of the last 20 years. Check both files below, Bebo was a musical genius. 
 
 [Vocals](https://separate-stems.s3.amazonaws.com/vocals.wav)
 [Accompaniment](https://separate-stems.s3.amazonaws.com/vocals.wav)
