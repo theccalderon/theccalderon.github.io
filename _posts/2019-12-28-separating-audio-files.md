@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "separating voclas from accompaniment in audio files using Deezer's spleeter"
+title:  "separating the beat from the lyrics using Deezer's spleeter"
 ---
 
-# Small full stack app to separate and song's vocals and accompaniment using Deezer's spleeter.
+# Small full stack app to separate vocals and accompaniment using Deezer's spleeter.
 
 In this post I'll be introducing `separate-stems`, a full stack app that separates vocals and accompaniment given an audio file. The app is delivered in a docker image and it uses HTML, JavaScript, Python and Deezer's ![spleeter](https://deezer.io/releasing-spleeter-deezer-r-d-source-separation-engine-2b88985e797e) SOTA algorithm to perform the separation.
 
