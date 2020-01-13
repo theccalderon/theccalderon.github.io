@@ -40,7 +40,7 @@ After loading the extension into your web browser, you'd see a new icon like the
 You can simply click on it and input your email for the first time to subscribe to the SNS topic where the audio file will be delivered and then click on synthesize.
 After that you will receive a notification via email when the task is completed and you can download your audio using the `aws s3 cp` command (see [https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html) for details on how to use this command.).
 
-<img src="/assets/ezgif.com-video-to-gif.gif?s=500" size=300 width=700>
+![Gif](/assets/ezgif.com-video-to-gif.gif)
 
 ## Implementation
 
