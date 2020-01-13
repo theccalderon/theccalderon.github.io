@@ -12,7 +12,8 @@ See [https://github.com/theccalderon/the-athletic-texh-to-speech](https://github
 # Index:
 1. [Motivation](#motivation)
 2. [Usage](#usage)
-3. [Implementation](#implementation)
+3. [Audio clip](#audio)
+4. [Implementation](#implementation)
 
 ## Motivation<a name="motivation"></a>
 
@@ -42,7 +43,13 @@ After that you will receive a notification via email when the task is completed 
 
 ![Gif](/assets/ezgif.com-video-to-gif.gif)
 
-## Implementation
+## Audio Clip <a name="audio"></a>
+
+I'm including a short clip of [https://theathletic.com/1515619/2020/01/09/hollingers-nba-playmaker-tiers-ranking-the-leagues-top-quarterbacks/](https://theathletic.com/1515619/2020/01/09/hollingers-nba-playmaker-tiers-ranking-the-leagues-top-quarterbacks/).
+
+[Audio Example](https://theareader.s3.amazonaws.com/hollinger-nba-quarterback.mov)
+
+## Implementation <a name="implementation"></a>
 
 I'll try to point out the most important code snippets and the ones I think are more relevant to other applications you might want to develop.
 
