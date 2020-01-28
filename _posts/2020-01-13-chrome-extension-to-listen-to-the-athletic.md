@@ -26,7 +26,9 @@ As usual, if you're just here to use the tool, please go to the [Usage](#usage) 
 
 ### Pre-requisites
 1. [AWS account](https://aws.amazon.com/free/)
-2. [AWS cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+2. [Amazon Cognito Identity pool](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-started-browser.html)
+3. [AWS SNS topic](https://docs.aws.amazon.com/sns/latest/dg/sns-tutorial-create-topic.html)
+4. [Amazon S3 bucket](https://docs.aws.amazon.com/quickstarts/latest/s3backup/step-1-create-bucket.html)
 
 ### Installation
 1. `git clone https://github.com/theccalderon/the-athletic-texh-to-speech.git`
