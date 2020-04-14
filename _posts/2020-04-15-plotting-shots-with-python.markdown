@@ -16,4 +16,4 @@ I've been working a lot with python lately and was curious if I could utilize it
 ## Pypi
 [https://pypi.org/project/shot-chart/1.1.0/](https://pypi.org/project/shot-chart/1.1.0/)
 
-(You can refer to a previous post to see how the data was extracted: (https://theccalderon.github.io/2019/12/11/scrapping-shots-basketball-reference.html)[])
+(You can refer to a previous post to see how the data was extracted: [https://theccalderon.github.io/2019/12/11/scrapping-shots-basketball-reference.html](https://theccalderon.github.io/2019/12/11/scrapping-shots-basketball-reference.html)))
