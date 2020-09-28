@@ -17,18 +17,18 @@ I'm also comparing regular season ratings which present 2 caveats:
 # Comparing the offense:
 We have to break down this analysis by offense vs defense but we should be able to "average" the ranks to come up with an overall measurement.
 
-| Teams                             | Opponent Offensive Rating | League Average Rating | Offensive Increment |
-|-----------------------------------|---------------------------|-----------------------|---------------------|
-| 2016 vs. Warriors (Cavs won 4-3)  | 114.5                     | 106.4                 | 8.1                 |
-| 2017 vs. Warriors (Cavs lost 4-1) | 115.6                     | 108.8                 | 6.8                 |
-| 2012 vs. Thunder (Heat won 4-1)   | 112.4                     | 105.9                 | 6.5                 |
-| 2015 vs. Warriors (Cavs lost 4-2) | 111.6                     | 105.6                 | 6                   |
-| 2018 vs. Warriors (Cavs lost 4-0) | 113.6                     | 108.6                 | 5                   |
-| 2014 vs. Spurs (Heat lost 4-1)    | 110.5                     | 106.7                 | 3.8                 |
-| 2013 vs. Spurs (Heat won 4-3)     | 110.5                     | 106.7                 | 3.8                 |
-| 2007 vs. Spurs (Cavs lost 4-0)    | 109.2                     | 106.5                 | 2.7                 |
-| 2011 vs. Mavs (Heat lost 4-2)     | 109.7                     | 107.3                 | 2.4                 |
-| 2020 vs. Heat (Lakers won 4-2)    | 112.5                     | 110.6                 | 1.9                 |
+| Teams                             | Opponent Offensive Rating | League Average Rating | Offensive Increment | Offensive Rank |
+|-----------------------------------|---------------------------|-----------------------|---------------------|----------------|
+| 2016 vs. Warriors (Cavs won 4-3)  | 114.5                     | 106.4                 | 8.1                 | 1              |
+| 2017 vs. Warriors (Cavs lost 4-1) | 115.6                     | 108.8                 | 6.8                 | 2              |
+| 2012 vs. Thunder (Heat won 4-1)   | 112.4                     | 105.9                 | 6.5                 | 3              |
+| 2015 vs. Warriors (Cavs lost 4-2) | 111.6                     | 105.6                 | 6                   | 4              |
+| 2018 vs. Warriors (Cavs lost 4-0) | 113.6                     | 108.6                 | 5                   | 5              |
+| 2014 vs. Spurs (Heat lost 4-1)    | 110.5                     | 106.7                 | 3.8                 | 6              |
+| 2013 vs. Spurs (Heat won 4-3)     | 110.5                     | 106.7                 | 3.8                 | 6              |
+| 2007 vs. Spurs (Cavs lost 4-0)    | 109.2                     | 106.5                 | 2.7                 | 8              |
+| 2011 vs. Mavs (Heat lost 4-2)     | 109.7                     | 107.3                 | 2.4                 | 9              |
+| 2020 vs. Heat (Lakers won 4-2)    | 112.5                     | 110.6                 | 1.9                 | 10             |
 
 As we can see in the table above, the Warriors teams were LeBron's toughest opponents offensive-wise with OKC's former MVPs in the mix. This year's Heat team would be the worse offensive team LeBron's played in the Finals. If, and that's a big if, these numbers tell us something, hopefully they can make up with defense.
 
