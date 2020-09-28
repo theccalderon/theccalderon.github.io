@@ -35,18 +35,18 @@ As we can see in the table above, the Warriors teams were LeBron's toughest oppo
 
 # Comparing the Defense
 
-| Teams                             | Opponent Defensive Rating | League Average Rating | Defensive Increment | Rank |
-|-----------------------------------|---------------------------|-----------------------|---------------------|------|
-| 2007 vs. Spurs (Cavs lost 4-0)    | 99.9                      | 106.5                 | 6.6                 | 1    |
-| 2017 vs. Warriors (Cavs lost 4-1) | 104                       | 108.8                 | 4.8                 | 2    |
-| 2014 vs. Spurs (Heat lost 4-1)    | 102.4                     | 106.7                 | 4.3                 | 3    |
-| 2013 vs. Spurs (Heat won 4-3)     | 102.4                     | 106.7                 | 4.3                 | 3    |
-| 2015 vs. Warriors (Cavs lost 4-2) | 101.4                     | 105.6                 | 4.2                 | 4    |
-| 2012 vs. Thunder (Heat won 4-1)   | 102.6                     | 105.9                 | 3.3                 | 3    |
-| 2016 vs. Warriors (Cavs won 4-3)  | 103.8                     | 106.4                 | 2.6                 | 1    |
-| 2011 vs. Mavs (Heat lost 4-2)     | 105                       | 107.3                 | 2.3                 | 8    |
-| 2020 vs. Heat (Lakers won 4-2)    | 109.5                     | 110.6                 | 1.1                 | 9    |
-| 2018 vs. Warriors (Cavs lost 4-0) | 107.6                     | 108.6                 | 1                   | 5    |
+| Teams                             | Opponent Defensive Rating | League Average Rating | Defensive Increment | Defensive Rank |
+|-----------------------------------|---------------------------|-----------------------|---------------------|----------------|
+| 2007 vs. Spurs (Cavs lost 4-0)    | 99.9                      | 106.5                 | 6.6                 | 1              |
+| 2017 vs. Warriors (Cavs lost 4-1) | 104                       | 108.8                 | 4.8                 | 2              |
+| 2014 vs. Spurs (Heat lost 4-1)    | 102.4                     | 106.7                 | 4.3                 | 3              |
+| 2013 vs. Spurs (Heat won 4-3)     | 102.4                     | 106.7                 | 4.3                 | 3              |
+| 2015 vs. Warriors (Cavs lost 4-2) | 101.4                     | 105.6                 | 4.2                 | 5              |
+| 2012 vs. Thunder (Heat won 4-1)   | 102.6                     | 105.9                 | 3.3                 | 6              |
+| 2016 vs. Warriors (Cavs won 4-3)  | 103.8                     | 106.4                 | 2.6                 | 7              |
+| 2011 vs. Mavs (Heat lost 4-2)     | 105                       | 107.3                 | 2.3                 | 8              |
+| 2020 vs. Heat (Lakers won 4-2)    | 109.5                     | 110.6                 | 1.1                 | 9              |
+| 2018 vs. Warriors (Cavs lost 4-0) | 107.6                     | 108.6                 | 1                   | 10             |
 
 The table above backs up the idea of those Spurs teams being very disciplinate on defense, they were the best defensive teams LeBron has faced (along with the 2017 Warriors).
 
