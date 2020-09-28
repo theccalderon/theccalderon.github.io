@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ranking LeBron's opponents in the finals"
+title:  "An approach to ranking LeBron's opponents in the finals"
 ---
 
 # How to rank the teams
