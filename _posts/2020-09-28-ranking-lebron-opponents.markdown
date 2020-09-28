@@ -68,7 +68,7 @@ So I took the median of the ranks and then rank the medians (bars!!!) resulting 
 | 2020 vs. Heat (Lakers won 4-2)    | 10               | 9              | 9.5         | 6                   |
 
 As it can be seen, this Heat team would be the worst**** team LeBron has faced in the finals. Another interesting sight is the 2011 Mavs (bring back DeShawn Stevenson!!!), they are the second to worst team overall when comparing the Offensive and Defensive Ratings which makes that Chip even colder.
-It also stands out the fact that the Cavs beat the 2016 Warriors who have the second overall rank [LeBron's says he's the GOAT](https://www.youtube.com/watch?v=BUqh7t-Aj3c). I need to do this kind of analysis going back a few years, it may lay down interesting results. 
+The 2016 Cavs team also stands out as they beat the 2016 Warriors who have the second overall rank [LeBron's says he's the GOAT](https://www.youtube.com/watch?v=BUqh7t-Aj3c). I need to do this kind of analysis going back a few years, it may lay down interesting results. 
 
 # Final thoughts
 
