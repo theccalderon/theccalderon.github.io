@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Parsing nba.stats.com draft data in tabular form (csv)"
+title:  "Parsing nba.stats.com draft combine data in tabular form (csv)"
 ---
 
 # The tool: nba-stats
 
-This post introduces `nba-stats`, a Swift command line application that downloads data from https://www.nba.com/stats/draft/ into csv files. The goal is not so much to explain how the app was developed but to share the data. See below for some of the data that's available:
+This post introduces `nba-stats`, a Swift command line application that downloads [Draft Combine Historical data](https://www.nba.com/stats/draft/) into csv files. The goal is not so much to explain how the app was developed but to share the data. See below for some of the data that's available:
 
 * Body fat %
 * Hand length/width
