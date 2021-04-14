@@ -19,7 +19,6 @@ I've said before I'm a big fan of Jupyter Notebooks and tools like [nbdev](https
 
 If you follow [this link](https://observablehq.com/@d3/bar-chart-race-explained) it takes you to an awesome Notebook where @mbostock takes you step by step on how to create a Bar Chart Race.\
 Since the purpose of this post is not so much to explain how D3.js works bur rather how to quickly create the visualization and use for your own purposes, I won't go into the details. However, you'd only need the data for the race in a CSV with columns date (in YYYY-MM-DD format), name, value and optionally category (which if present determines color).\
-_Note:_ Each row is a snapshot of the data YYYY-MM-DD. 
 
 ## Embedding the Bar Chart Race visualization
 
@@ -30,3 +29,9 @@ After you have your visualization ready, you can just select the cell, go to to 
 **But** sometimes the data you're trying to show it's not for the public and the notebooks need to be in order for you to be able to embed the cells as iFrames.
 
 ## Enter "Download Code"
+
+Observable also allows you to download the code of the Notebook. This way you can customize and use it as you like. \
+Now, if you were to deploy the downloaded code to an HTTP server it will look like this:
+![Image](../assets/dePalo.png)
+
+Which doesn't look great and has all the text from Observable. So I created the following that gets rid of all of that and 
