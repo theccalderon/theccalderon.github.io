@@ -35,3 +35,6 @@ Now, if you were to deploy the downloaded code to an HTTP server it will look li
 ![Image](../assets/dePalo.png)
 
 Which doesn't look great and has all the text from Observable. So I created the following that gets rid of all of that and 
+
+
+TODO: check https://observablehq.com/@observablehq/downloading-and-embedding-notebooks
