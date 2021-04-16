@@ -49,7 +49,7 @@ After you have your visualization ready, you can just select the cell, go to to 
 
 Observable also allows you to download the code of the Notebook. This way you can customize and use it as you like. Ideally, you get the graph to the point where you're in love with how it looks and then you download the code. using this approach you don't need to share your notebook so you don't lose confidentiality.
 
-After that all you have to do is to replace the contents of your `index.html` file with the following https://github.com/theccalderon/bar-chart-race-observable/blob/master/index.html which I copied and modified from [this repo](https://github.com/observablehq/examples/tree/main/standalone).
+After that all you have to do is to replace the contents of your `index.html` file with the following [https://github.com/theccalderon/bar-chart-race-observable/blob/master/index.html](https://github.com/theccalderon/bar-chart-race-observable/blob/master/index.html) which I copied and modified from [this repo](https://github.com/observablehq/examples/tree/main/standalone).
 Once the file has been replaced, you should update lines 21 and 22 with your title and captions for the chart.
 
 Once you do that, you can serve the contents using any HTTP server. [This repo](https://github.com/theccalderon/bar-chart-race-observable) has a docker-compose file that you can use to run an nginx container as following (you need to have Docker installed):
@@ -58,4 +58,4 @@ docker-compose -f docker-compose.dev.yml up
 ```
 
 ### Live version: <a name="live"></a>
-https://master.d1hxlr6otct52k.amplifyapp.com/
+[https://master.d1hxlr6otct52k.amplifyapp.com/](https://master.d1hxlr6otct52k.amplifyapp.com/)
