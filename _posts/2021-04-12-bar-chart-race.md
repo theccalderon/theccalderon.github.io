@@ -39,9 +39,7 @@ Since the purpose of this post is not so much to explain how D3.js works bur rat
 
 ## Embedding the Bar Chart Race visualization<a name="embedding"></a>
 
-After you have your visualization ready, you can just select the cell, go to to the 3-dotted menu on the top right corner and copy the iFrame. See the images below:
-![Image](/assets/instructions.png)
-![Image](/assets/iFrame.png)
+After you have your visualization ready, you can just select the cell, go to to the 3-dotted menu on the top right corner of the Notebook and copy the iFrame.
 
 **But** sometimes the data you're trying to show it's not for the public and the notebooks need to be in order for you to be able to embed the cells as iFrames.
 
