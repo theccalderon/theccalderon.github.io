@@ -58,3 +58,4 @@ docker-compose -f docker-compose.dev.yml up
 ```
 
 ### Live version: <a name="live"></a>
+https://master.d1hxlr6otct52k.amplifyapp.com/
