@@ -7,7 +7,7 @@ title:  "Easy way to create one of those cool Bar Chart Race visualizations"
 
 I'm pretty sure everybody's seen those cool bar charts that are animated through time where you can see each bar "compete" against each other. See an example here:
 
-<iframe src="https://master.d1hxlr6otct52k.amplifyapp.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+<iframe src="https://master.d1hxlr6otct52k.amplifyapp.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="600px" allowfullscreen></iframe>
 
 This can be useful to tell a story. However, most of the times these are created using a tool (Tableau, Flourish...). The purpose of this post is to show you how to create them (and use them in your website). You just need a little bit of JS and HTML and you should be all set.
 
