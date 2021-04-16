@@ -32,7 +32,7 @@ This can be useful to tell a story. However, most of the times these are created
 
 I've said before I'm a big fan of Jupyter Notebooks and tools like [nbdev](https://github.com/fastai/nbdev) which allows you to develop a Python Library using nothing more than Jupyter Notebooks. So you can imagine my excitement when I discovered [Observable](https://observablehq.com/) where you can pretty much create any visualization you can think of, in a Notebook!!!
 
-## Enter https://observablehq.com/@d3/bar-chart-race-explained<a name="notebook"></a>
+## Enter [https://observablehq.com/@d3/bar-chart-race-explained](https://observablehq.com/@d3/bar-chart-race-explained)<a name="notebook"></a>
 
 If you follow [this link](https://observablehq.com/@d3/bar-chart-race-explained) it takes you to an awesome Notebook where @mbostock takes you step by step on how to create a Bar Chart Race.\
 Since the purpose of this post is not so much to explain how D3.js works bur rather how to quickly create the visualization and use for your own purposes, I won't go into the details. However, you'd only need the data for the race in a CSV with columns date (in YYYY-MM-DD format), name, value and optionally category (which if present determines color).\
