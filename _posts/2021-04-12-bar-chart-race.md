@@ -34,8 +34,8 @@ I've said before I'm a big fan of Jupyter Notebooks and tools like [nbdev](https
 
 ## Enter [https://observablehq.com/@d3/bar-chart-race-explained](https://observablehq.com/@d3/bar-chart-race-explained)<a name="notebook"></a>
 
-If you follow [this link](https://observablehq.com/@d3/bar-chart-race-explained) it takes you to an awesome Notebook where @mbostock takes you step by step on how to create a Bar Chart Race.\
-Since the purpose of this post is not so much to explain how D3.js works bur rather how to quickly create the visualization and use for your own purposes, I won't go into the details. However, you'd only need the data for the race in a CSV with columns date (in YYYY-MM-DD format), name, value and optionally category (which if present determines color).\
+If you follow [this link](https://observablehq.com/@d3/bar-chart-race-explained) it takes you to an awesome Notebook where @mbostock takes you step by step on how to create a Bar Chart Race.
+Since the purpose of this post is not so much to explain how D3.js works bur rather how to quickly create the visualization and use for your own purposes, I won't go into the details. However, you'd only need the data for the race in a CSV with columns date (in YYYY-MM-DD format), name, value and optionally category (which if present determines color).
 
 ## Embedding the Bar Chart Race visualization<a name="embedding"></a>
 
