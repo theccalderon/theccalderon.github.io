@@ -14,9 +14,11 @@ This can be useful to tell a story. However, most of the times these are created
 ## TL;TR
 1. Go to https://observablehq.com/@d3/bar-chart-race-explained, fork the notebook and build your visualization
 2. Download code as per [Enter "Download Code"](#download)
-3. Replace downloaded `index.html` with [this file](https://github.com/theccalderon/bar-chart-race-observable/blob/master/index.html)
-4. Modify line 21 and 22 of the new `index.html` and update your `Title` and `Caption`
-5. Deploy the contents to a local HTTP server or hosting service.
+3. Copy your dataset into the root directory
+4. Replace downloaded `index.html` with [this file](https://github.com/theccalderon/bar-chart-race-observable/blob/master/index.html)
+5. Modify line 43 of the new `index.html` and use the relative path to your dataset (csv file)
+6. Modify line 21 and 22 of the new `index.html` and update your `Title` and `Caption`
+7. Deploy the contents to a local HTTP server or hosting service.
 
 # Index:
 1. [Observable](#observable)
