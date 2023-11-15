@@ -18,7 +18,7 @@ In order to do so, I'm going to be following the instructions in [https://mitche
 We never get to see the full insight, and I think it will be a good use case for this post's purpose.
 
 ## Data
-[https://data.world/abhinavr8/the-office-scripts-dataset](https://data.world/abhinavr8/the-office-scripts-dataset)
+[https://data.world/abhinavr8/the-office-scripts-dataset](https://data.world/abhinavr8/the-office-scripts-dataset):15345
 
 ## TL;TR
 1. Go to https://observablehq.com/@d3/bar-chart-race-explained, fork the notebook and build your visualization
