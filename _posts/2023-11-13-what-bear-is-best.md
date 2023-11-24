@@ -13,12 +13,17 @@ Sometimes, when I go to sleep, there's a looming thought that keeps coming back:
 What was Dwight's answer to Jim's question?
 [https://www.youtube.com/shorts/hBRjeVyd5Xo](What kind of bear is best?)
 
-In order to do so, I'm going to be following the instructions in [https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting)
+In order to do so, I'm going to be following the instructions in [https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting). We never get to see the full insight, and I think it will be a good use case for this post's purpose.
 
-We never get to see the full insight, and I think it will be a good use case for this post's purpose.
+Now, in the actual scene, Jim asks Dwight the question, then Jim answers before Dwight and the latter then starts a sentence we never get to hear the ending. Based on that, this problem then becomes a hybrid between answering a question and completing a thought/statement.
+We can definitely evaluate each one in a separate way to see what comes out of it. I'll do that in the appendix.
 
 ## Data
 [https://data.world/abhinavr8/the-office-scripts-dataset](https://data.world/abhinavr8/the-office-scripts-dataset):15345
+
+## Demonstration set
+
+For our demonstration set, I'm going to find a few instances where Dwight answers a some questions. 
 
 ## TL;TR
 1. Go to https://observablehq.com/@d3/bar-chart-race-explained, fork the notebook and build your visualization
