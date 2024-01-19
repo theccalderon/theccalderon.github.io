@@ -52,7 +52,8 @@ Now my favorite part! We'll try to write some python code to test the different 
 To implement this, I used langchain and HuggingFace. Langchain is a library in python that allows you to do prompt engineering and HuggingFace is an open source community that has tons of models we can use for free.
 The notebook has comments in it for more information.
 
-Notebook:
-<iframe src="https://github.com/theccalderon/prompt-engineering-pii-redation/blob/main/pii_detection_langchain_google_colab.ipynb" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="600px" allowfullscreen></iframe>
+### [Link to Notebook](https://github.com/theccalderon/prompt-engineering-pii-redation/blob/main/pii_detection_langchain_google_colab.ipynb).
 
 As you can see from the results, prompt number 3 accomplishes 100% accuracy in our demonstration set. Please note ideally you need way more examples, but this looks very promising!
+![Image](/assets/zero_shots.png)
+![Image](/assets/few_shots.png)
