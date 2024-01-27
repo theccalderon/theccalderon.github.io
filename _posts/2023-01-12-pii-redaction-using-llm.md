@@ -3,7 +3,7 @@ layout: post
 title:  "PII redaction using LLM: a prompt engineering introduction"
 ---
 
-# PII redaction using LLM: a prompt engineering introduction
+## PII redaction using LLM: a prompt engineering introduction
 
 This post is an attempt to get my hands dirty with prompt engineering. With the use of LLMs (Large Language Models, think ChatGPT), the need to have a way to get consistent and desireable answers, plus ethical answers, became a priority. There are other methods to accomplish this, like fine tuning the model. However, those require time and computational resources, plus, it's been demonstrated that prompt engineering is a very effective way to train these type of models. There are plenty of posts discussing this. However, my aim is to actually share the code via a Jupyter Notebook.
 
