@@ -27,7 +27,7 @@ name: "Not as nerdy"
 markdown: kramdown
 # theme: minima
 # theme: jekyll-theme-minimal
-remote_theme: no-style-please
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
 
