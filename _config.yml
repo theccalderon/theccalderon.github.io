@@ -25,7 +25,8 @@ name: "Not as nerdy"
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: no-style-please
 plugins:
   - jekyll-feed
 
