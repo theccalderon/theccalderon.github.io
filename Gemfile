@@ -13,6 +13,9 @@ gem "jekyll", "~> 3.8.6"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
+# https://www.reddit.com/r/Jekyll/comments/11ivv3d/comment/jfeie1m/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+gem "faraday-retry"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
