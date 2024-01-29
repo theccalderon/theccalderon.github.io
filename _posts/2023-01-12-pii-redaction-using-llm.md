@@ -9,9 +9,11 @@ This post is an attempt to get my hands dirty with prompt engineering. With the 
 
 ## Why PII redaction?
 
-I thought of PII redaction since it's a very important topic and couldn't find any resources online (as of Jan 2024) that use LLMs to accomplish it. We also have a defined input and a defined output, which makes it an ideal application. Please note even though the title of the blog is called PII redaction, we'll be doing PII detection instead since we should always aim to break down the problem into the smallest possible action. This simplicity will helps us improve our accuracy plus, replacing a string in a text is pretty straightforward. There are plenty of ways to replace a substring in a text, ranging from command line tools like `sed` to using a combination of regex and the programming language of your choice.
+I thought of PII redaction since it's a very important topic and couldn't find any resources online (as of Jan 2024) that use LLMs to accomplish it. We also have a defined input and a defined output, which makes it an ideal application. Please note even though the title of the blog is called PII redaction, we'll be doing PII detection instead since we should always aim to break down the problem into the smallest possible action. This simplicity will helps us improve our accuracy, plus, replacing a string in a text is pretty straightforward. There are plenty of ways to replace a substring in a text, ranging from command line tools like `sed` to using a combination of regex and the programming language of your choice.
 
-I'm also aware of more advanced techniques that have surfaced relatively recently (CoT, prompt chaining, agents...). These are supposed to make human prompting obsolete, so we'll try to cover those in a different post. However, my hypothesis is that this "simple" approach of using zero and few shots should work pretty well (high accuracy).
+## Quick Note
+
+There are newer, more advanced techniques (CoT, automatic prompts...). I haven't made my way into those yet, but I'm planning on doing so very soon. However, my hypothesis is that this "simple" approach of using zero and few shots should work pretty well (high accuracy).
 
 ## Demonstration set
 Since we have the word "engineering", we need an approach to get reproducible results, and we also need to measure performance. We will need a demonstration set for that. We'll use examples to test the accuracy of our solution. 
