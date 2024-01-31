@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PII redaction using LLM: a prompt engineering introduction"
+tags: [langchain, prompt engineering, python, LLM, Mistral]
 ---
 
 ## PII redaction using LLM: a prompt engineering introduction

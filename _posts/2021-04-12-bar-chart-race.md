@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Easy way to create one of those cool Bar Chart Race visualizations"
+tags: [data visualization, analytics, d3, javascript]
 ---
 
 # Creating a Bar Chart Visualization

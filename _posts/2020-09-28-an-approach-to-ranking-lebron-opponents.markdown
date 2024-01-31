@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "An approach to ranking LeBron's opponents in the finals"
+tags: [sports, data analysis, python, research]
 ---
 
 # How to rank the teams
