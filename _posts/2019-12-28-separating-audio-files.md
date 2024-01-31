@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "separating the beat from the lyrics using Deezer's spleeter"
+tags: [machine learning, python, docker, audio]
 ---
 
 # Small full stack app to separate vocals and accompaniment using Deezer's spleeter.

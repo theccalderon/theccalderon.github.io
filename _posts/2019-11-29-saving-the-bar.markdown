@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Using puppeteer to save the bar!!!"
+tags: [puppeteer, javascript]
 ---
 
 # Automating Google Form submission using puppeteer

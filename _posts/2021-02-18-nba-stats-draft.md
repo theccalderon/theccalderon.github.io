@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Parsing nba.stats.com draft combine data in tabular form (csv)"
+tags: [swift, datasets, web scrapping]
 ---
 
 # The tool: nba-stats

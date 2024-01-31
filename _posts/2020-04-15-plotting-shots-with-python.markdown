@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "shotChart part 2: plotting NBA shot charts with python"
+tags: [python, sports, data analysis, matplotlib]
 ---
 
 # Plotting NBA shot charts with python

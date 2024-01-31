@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "shotChart part 1: Scraping shots from basketball-reference"
+tags: [web scrapping, python, datasets, sports]
 ---
 
 # Web spider to crawl the shot chart data from basketball-reference.com

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Listening to The Athletic!"
+tags: [chrome extension, SpeechToText, AWS, javascript]
 ---
 
 # Building a Chrome Extension to convert an article published in the Athletic to speech
