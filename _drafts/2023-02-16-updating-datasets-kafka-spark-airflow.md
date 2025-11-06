@@ -31,8 +31,11 @@ As I mentioned earlier, I used the following tools:
 ### Pipeline diagram:
 
 ### Github repo:
+Here's the Github repo which contains a README that goes over setup and how to run the pipeline:<br>
+[updating-datasets-data-engineering](https://github.com/theccalderon/updating-datasets-data-engineering)
 
 ### Pipeline in action:
+![alt text](<Adobe Express - merged.gif>)
 
 ### Next steps:
 Now that the datasets are up to date near realtime, there are plenty of new applications we can develop. We can try to feed these data to some models to predict outcomes, analyze win probability etc. More to come on this.
