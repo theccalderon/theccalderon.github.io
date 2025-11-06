@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automating the updates to my datasets using kafka, spark and airflow."
-tags: [data engineering, datasets, airflow, kafka, spark, streaming]
+tags: [data engineering, datasets, airflow, kafka, spark, streaming, docker]
 ---
 
 ## Implementing a data pipeline to perform automatic updates to the shot chart datasets.
