@@ -33,7 +33,7 @@ Here's the Github repo which contains a README that goes over setup and how to r
 [updating-datasets-data-engineering](https://github.com/theccalderon/updating-datasets-data-engineering)
 
 ### Pipeline in action:
-<img src="../assets/data_pipeline_in_action.gif" alt="drawing" width="800"/>
+<img src="https://theccalderon.github.io/assets/data_pipeline_in_action.gif" alt="drawing" width="800"/>
 
 
 ### Next steps:
