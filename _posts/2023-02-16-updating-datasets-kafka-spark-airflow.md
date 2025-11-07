@@ -4,11 +4,8 @@ title:  "Automating the updates to my datasets using kafka, spark and airflow."
 tags: [data engineering, datasets, airflow, kafka, spark, streaming, docker, python, pyspark]
 ---
 
-## Implementing a data pipeline to perform automatic updates to the shot chart datasets.
-
-Finally, I have some time and will to post again. 
-
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXh3d2p1czVjNXllYjR0cmp1Z3V3cmR4NTJtZDYyamxxd2ZxNTV3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHZKRgiZXYmVVbq/giphy.gif)
+Finally, I have some time and will to post again. <br><br>
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXh3d2p1czVjNXllYjR0cmp1Z3V3cmR4NTJtZDYyamxxd2ZxNTV3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHZKRgiZXYmVVbq/giphy.gif" alt="drawing" width="400"/>
 
 In all seriousness, I find it very hard these days to carve time to dedicate to personal projects. However, I was finally able to finish the implementation of a data pipeline to automatically update the shot chart datasets used by [shot_chart](https://github.com/theccalderon/shot_chart) which I intend to document on this post.
 
@@ -36,7 +33,8 @@ Here's the Github repo which contains a README that goes over setup and how to r
 [updating-datasets-data-engineering](https://github.com/theccalderon/updating-datasets-data-engineering)
 
 ### Pipeline in action:
-![alt text](<Adobe Express - merged.gif>)
+<img src="../assets/data_pipeline_in_action.gif" alt="drawing" width="800"/>
+
 
 ### Next steps:
 Now that the datasets are up to date near real-time, there are plenty of new applications we can develop. We can try to feed these data to some models to predict outcomes, analyze win probability etc. More to come on this.
